@@ -42,6 +42,7 @@ func _on_close_button_pressed() -> void:
 	get_tree().paused = false
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	print("Close_Note")
+	#ต้องคืนค่า var has_been_answered: bool = false ให้เหมือนเดิมแต่จะลิ้งยังไง
 
 # Choose
 func _button_1_pressed() -> void:

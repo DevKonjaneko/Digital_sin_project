@@ -3,7 +3,6 @@ extends CanvasLayer
 @onready var sub_viewport = $background/SubViewportContainer/SubViewport
 
 func _ready():
-	# แสดงเมาส์ในเมนู
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE #
 	
 	var current_res = globalsetting.current_resolution

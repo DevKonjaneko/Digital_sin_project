@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://dit5fjgxvvysf"]
+[gd_scene load_steps=18 format=3 uid="uid://dit5fjgxvvysf"]
 
 [ext_resource type="PackedScene" uid="uid://bl0h3mi0qhq4f" path="res://Scene/_main_s/Village.tscn" id="1_c6k8p"]
 [ext_resource type="PackedScene" uid="uid://cr16qvxkng034" path="res://Player/player.tscn" id="2_csiqh"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://r61bfbf25gcy" path="res://Scene/note_s/Note.tscn" id="3_mbwnc"]
 [ext_resource type="PackedScene" uid="uid://cuiklvlmyu8n6" path="res://Scene/object_s/TestCube.tscn" id="4_e41yp"]
 [ext_resource type="PackedScene" uid="uid://b76niexsnwx45" path="res://UI/effects/transitionscreen.tscn" id="4_mbwnc"]
+[ext_resource type="Texture2D" uid="uid://bbfc5tpke1l6g" path="res://Textures/noise/Fingerprints01_3K.png" id="5_q41ih"]
 [ext_resource type="PackedScene" uid="uid://cql47emoguxmu" path="res://Scene/object_s/Battery.tscn" id="6_csiqh"]
 [ext_resource type="PackedScene" uid="uid://ckrc1qq74bsae" path="res://Scene/decal_s/photography.tscn" id="9_4bh3e"]
 [ext_resource type="Texture2D" uid="uid://dvnfa3mgd3k8f" path="res://Textures/pictures/Screenshot 2025-10-30 183943.png" id="10_4bh3e"]
@@ -86,6 +87,7 @@ font_size = 25
 
 [node name="Note3" parent="." instance=ExtResource("3_mbwnc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.641976, 1.1527436, -3.2895126)
+albedo_texture = ExtResource("5_q41ih")
 note_text = "3.“บนโลกออนไลน์… ไม่ใช่ทุกคนที่เป็นเพื่อนแท้”
 การหลอกให้เผยข้อมูลส่วนตัวเรียกว่าอะไร?
 A. Social Engineering
